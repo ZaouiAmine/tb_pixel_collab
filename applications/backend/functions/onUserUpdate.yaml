@@ -1,0 +1,11 @@
+id: QmRdCQJLPetHjKvf2D1q2hD3nat8wWKZWY6zPg45oUDf2D
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: pub-sub
+    channel: userupdates
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: onUserUpdate

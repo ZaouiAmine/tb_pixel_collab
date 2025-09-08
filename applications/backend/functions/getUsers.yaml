@@ -1,0 +1,15 @@
+id: QmQkKaNYwpLJNCGRXRSg95pVcjzC5Q8bz3hG73aXhaPbgr
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/getUsers
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getUsers

@@ -1,0 +1,15 @@
+id: QmcauRriue1b8XA6duUPRDsRU9ECip9gqLosFJogvNhV3g
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/leaveGame
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: leaveGame

@@ -1,0 +1,15 @@
+id: QmdiMA3ztxxvwfS2dtA6YGsKnggCfcaF31m3kHKJ3LnAkC
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/getWebSocketURL
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getWebSocketURL
