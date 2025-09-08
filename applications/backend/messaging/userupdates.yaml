@@ -1,0 +1,12 @@
+id: QmPWqPeqtcmxcYT4P7uRXRY4aC1j9GQXwVZoBTZYpsvSiP
+description: ""
+tags: []
+local: false
+channel:
+    regex: false
+    match: userupdates
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: true

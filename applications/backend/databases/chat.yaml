@@ -1,0 +1,12 @@
+id: QmaTGCMR6Gh58H2N8UEVKNbJDCPMySSm5eiwCGL8tu8PjT
+description: ""
+tags: []
+match: /chat
+useRegex: false
+access:
+    network: all
+replicas:
+    min: 1
+    max: 2
+storage:
+    size: 100MB

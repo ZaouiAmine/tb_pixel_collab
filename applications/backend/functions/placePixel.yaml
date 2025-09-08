@@ -1,0 +1,15 @@
+id: QmVbBrrGVCZw6JDhayvnjq8G1oJV2hHbxaAc2ZaxvpDUqx
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/placePixel
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: placePixel
