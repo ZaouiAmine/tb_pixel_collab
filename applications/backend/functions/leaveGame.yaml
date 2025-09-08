@@ -8,7 +8,7 @@ trigger:
     paths:
         - /api/leaveGame
 domains:
-    - GeneratedDomain
+    - main
 execution:
     timeout: 10s
     memory: 10MB
