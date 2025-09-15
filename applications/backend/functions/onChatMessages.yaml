@@ -1,0 +1,11 @@
+id: QmUNaQSuBjJ9uQKGndkSuQgUnPWehYjkNLKuqdibMD4Rt5
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: pub-sub
+    channel: chatmessages
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: onChatMessages

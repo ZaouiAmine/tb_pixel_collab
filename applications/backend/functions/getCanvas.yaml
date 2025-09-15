@@ -1,0 +1,15 @@
+id: QmRqDQjRXu2XCnPZLHYwBcuMfyWPimwnCLWeNGykHL7mmE
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/getCanvas
+domains:
+    - main
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getCanvas

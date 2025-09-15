@@ -1,0 +1,11 @@
+id: QmTRtdudeioMefD7jvHC5YC7NMLB9QneUnUHNFTTMjLBir
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: pub-sub
+    channel: pixelupdates
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: onPixelUpdate

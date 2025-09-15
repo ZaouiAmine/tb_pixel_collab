@@ -1,0 +1,15 @@
+id: QmSi6cLpjDUkE38bRTpE5D6h9xi2YJ9VaBEf44gFLWtHYP
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/getMessages
+domains:
+    - main
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getMessages

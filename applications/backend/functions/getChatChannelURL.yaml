@@ -1,0 +1,15 @@
+id: QmSVM3mKG4eVetQyCYkjcZGV5UTeBKP42veKzFvTi3HWqJ
+description: ""
+tags: []
+source: libraries/pixel_collab_backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/getChatChannelURL
+domains:
+    - main
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getChatChannelURL
