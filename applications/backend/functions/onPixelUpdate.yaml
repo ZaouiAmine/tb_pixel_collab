@@ -6,6 +6,6 @@ trigger:
     type: pub-sub
     channel: pixelupdates
 execution:
-    timeout: 10s
+    timeout: 300s
     memory: 10MB
     call: onPixelUpdate
