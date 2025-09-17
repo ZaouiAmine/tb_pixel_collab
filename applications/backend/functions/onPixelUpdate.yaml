@@ -7,5 +7,5 @@ trigger:
     channel: pixelupdates
 execution:
     timeout: 300s
-    memory: 100MB
+    memory: 10MB
     call: onPixelUpdate
