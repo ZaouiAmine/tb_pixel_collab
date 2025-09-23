@@ -1,4 +1,4 @@
-id: QmTCAjSc2Ykf1gAWBYJB8T8fCpCtWhX9vtZnVFCLNvPY4M
+id: Qme4JEtgyRJwLW5T9eUK8862DR5eAZYTDmqmmdnM6f3Kiw
 description: ""
 tags: []
 source: libraries/pixel_collab_backend
@@ -6,10 +6,10 @@ trigger:
     type: https
     method: GET
     paths:
-        - /api/getPixelChannelURL
+        - /api/getChannelURL
 domains:
     - main
 execution:
     timeout: 10s
     memory: 10MB
-    call: getPixelChannelURL
+    call: getChannelURL
